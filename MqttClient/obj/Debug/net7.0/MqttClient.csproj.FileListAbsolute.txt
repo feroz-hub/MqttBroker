@@ -1,0 +1,5 @@
+/Users/ferozebasha/Projects/MqttBroker/MqttClient/obj/Debug/net7.0/MqttClient.csproj.AssemblyReference.cache
+/Users/ferozebasha/Projects/MqttBroker/MqttClient/obj/Debug/net7.0/MqttClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ferozebasha/Projects/MqttBroker/MqttClient/obj/Debug/net7.0/MqttClient.AssemblyInfoInputs.cache
+/Users/ferozebasha/Projects/MqttBroker/MqttClient/obj/Debug/net7.0/MqttClient.AssemblyInfo.cs
+/Users/ferozebasha/Projects/MqttBroker/MqttClient/obj/Debug/net7.0/MqttClient.csproj.CoreCompileInputs.cache

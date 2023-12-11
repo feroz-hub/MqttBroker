@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gvU4XoJaLni5zvoihVKTXUiCOhX3U9iCqkrmiCTklK215RX2eMabXsdsR9wqGLJ5vndIkbMVpIRvFhVIlATcOg==",
+  "success": true,
+  "projectFilePath": "/Users/ferozebasha/Projects/MqttBroker/Mqtt/Mqtt.csproj",
+  "expectedPackageFiles": [
+    "/Users/ferozebasha/.nuget/packages/mqttnet/4.3.1.873/mqttnet.4.3.1.873.nupkg.sha512"
+  ],
+  "logs": []
+}
