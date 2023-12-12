@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gvU4XoJaLni5zvoihVKTXUiCOhX3U9iCqkrmiCTklK215RX2eMabXsdsR9wqGLJ5vndIkbMVpIRvFhVIlATcOg==",
+  "dgSpecHash": "QroX3/FB6HSq3YcEU8Bc0wEvI2D7DxQhCQU82grNI3/L1vAzObKsqSIidBs9JfoM1JrNgTSQ2zFG8Xnw8AvXJg==",
   "success": true,
-  "projectFilePath": "/Users/ferozebasha/Projects/MqttBroker/Mqtt/Mqtt.csproj",
+  "projectFilePath": "/Users/ferozebasha/Projects/MqttBroker/Mqtt/MqttBroker.csproj",
   "expectedPackageFiles": [
-    "/Users/ferozebasha/.nuget/packages/mqttnet/4.3.1.873/mqttnet.4.3.1.873.nupkg.sha512"
+    "/Users/ferozebasha/.nuget/packages/mqttnet/4.3.3.952/mqttnet.4.3.3.952.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,17 @@
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/bin/Debug/net6.0/MqttBroker
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/bin/Debug/net6.0/MqttBroker.deps.json
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/bin/Debug/net6.0/MqttBroker.runtimeconfig.json
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/bin/Debug/net6.0/MqttBroker.dll
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/bin/Debug/net6.0/MqttBroker.pdb
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/bin/Debug/net6.0/MQTTnet.dll
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/MqttBroker.csproj.AssemblyReference.cache
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/MqttBroker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/MqttBroker.AssemblyInfoInputs.cache
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/MqttBroker.AssemblyInfo.cs
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/MqttBroker.csproj.CoreCompileInputs.cache
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/MqttBroker.csproj.CopyComplete
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/MqttBroker.dll
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/refint/MqttBroker.dll
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/MqttBroker.pdb
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/MqttBroker.genruntimeconfig.cache
+/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/Debug/net6.0/ref/MqttBroker.dll
