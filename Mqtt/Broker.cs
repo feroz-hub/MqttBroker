@@ -1,52 +1,39 @@
-﻿using MQTTnet;
-using MQTTnet.Server;
+﻿using MqttBroker;
 
-namespace MqttServerExample
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static async Task Main(string[] args)
+        Console.WriteLine("Select the server type:");
+        Console.WriteLine("1. Server_Tls (Mutual Authentication)");
+        Console.WriteLine("2. Simple Server (No Encryption)");
+        Console.WriteLine("3. Valid Connection");
+        Console.WriteLine("4. Publish Message From Broker");
+
+        Console.Write("Enter any option (1, 2, 3, 4): ");
+
+        if (int.TryParse(Console.ReadLine(), out int option))
         {
-            // Create an instance of the MQTT factory
-            var mqttFactory = new MqttFactory();
-
-            // Build MQTT server options with default endpoint
-            var mqttServerOption = new MqttServerOptionsBuilder().WithDefaultEndpoint().Build();
-
-            // Define a list of allowed client IDs
-            var allowedClientId = new List<string> { "Publisher", "Subscriber", "Client3" };
-
-            // Using statement ensures resources are properly disposed when the server is no longer needed
-            using (var mqttServer = mqttFactory.CreateMqttServer(mqttServerOption))
+            switch (option)
             {
-                // Event handler for validating incoming connections
-                mqttServer.ValidatingConnectionAsync += e =>
-                {
-                    // Check if the client ID is allowed
-                    if (!allowedClientId.Contains(e.ClientId))
-                    {
-                        // Reject connection if client ID is not allowed
-                        e.ReasonCode = MQTTnet.Protocol.MqttConnectReasonCode.ClientIdentifierNotValid;
-                        Console.WriteLine($"Rejected connection from server '{e.ClientId}' - Client ID not Allowed");
-                        return Task.CompletedTask;
-                    }
-
-                    // Accept connection if client ID is allowed
-                    Console.WriteLine($"Accepted connection from Server '{e.ClientId}'");
-                    return Task.CompletedTask;
-                };
-
-                // Start the MQTT server
-                await mqttServer.StartAsync();
-
-                Console.WriteLine("MQTT server started on port 1883.");
-
-                // Wait for user input before stopping the server
-                Console.ReadLine();
-
-                // Stop the MQTT server
-                await mqttServer.StopAsync();
+                case 1:
+                    Mqtt_Server.Run_Server_With_Mutual_Authentication().GetAwaiter().GetResult();
+                    break;
+                case 2:
+                    Mqtt_Server.Run_Minimal_Server().GetAwaiter().GetResult();
+                    break;
+                case 3:
+                    Mqtt_Server.ValidMqttClient().GetAwaiter().GetResult();
+                    break;
+                
+                default:
+                    Console.WriteLine("Invalid option. Exiting...");
+                    break;
             }
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Exiting...");
         }
     }
 }

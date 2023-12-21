@@ -1,9 +1,32 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MqttPublish PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MqttBroker PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.MqttSubscribe PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MqttSubscribe/Subscriber.cs">
+    <Files>
+      <File FileName="Mqtt/Broker.cs" />
+      <File FileName="MqttClient/Publisher.cs" />
+      <File FileName="MqttSubscribe/Subscriber.cs" Line="20" Column="42" />
+      <File FileName="Mqtt/Mqtt_Server.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mqtt" expanded="True">
+            <Node name="MqttBroker" expanded="True" />
+            <Node name="MqttPublish" expanded="True" />
+            <Node name="MqttSubscribe" expanded="True">
+              <Node name="Subscriber.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -13,24 +36,5 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.MqttBroker PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MqttSubscribe/Subscriber.cs">
-    <Files>
-      <File FileName="Mqtt/Broker.cs" Line="17" Column="78" />
-      <File FileName="MqttClient/Publisher.cs" Line="45" Column="55" />
-      <File FileName="MqttSubscribe/Subscriber.cs" Line="20" Column="76" />
-      <File FileName="MqttSubscribe/ObjectExtensions.cs" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Mqtt" expanded="True">
-            <Node name="MqttBroker" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MqttPublish PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

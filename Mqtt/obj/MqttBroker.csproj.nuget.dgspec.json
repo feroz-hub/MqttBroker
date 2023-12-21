@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ferozebasha/Projects/MqttBroker/Mqtt/MqttBroker.csproj": {}
+    "/Users/ferozebasha/Aspnetcore/MqttBroker/Mqtt/MqttBroker.csproj": {}
   },
   "projects": {
-    "/Users/ferozebasha/Projects/MqttBroker/Mqtt/MqttBroker.csproj": {
+    "/Users/ferozebasha/Aspnetcore/MqttBroker/Mqtt/MqttBroker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ferozebasha/Projects/MqttBroker/Mqtt/MqttBroker.csproj",
+        "projectUniqueName": "/Users/ferozebasha/Aspnetcore/MqttBroker/Mqtt/MqttBroker.csproj",
         "projectName": "MqttBroker",
-        "projectPath": "/Users/ferozebasha/Projects/MqttBroker/Mqtt/MqttBroker.csproj",
+        "projectPath": "/Users/ferozebasha/Aspnetcore/MqttBroker/Mqtt/MqttBroker.csproj",
         "packagesPath": "/Users/ferozebasha/.nuget/packages/",
-        "outputPath": "/Users/ferozebasha/Projects/MqttBroker/Mqtt/obj/",
+        "outputPath": "/Users/ferozebasha/Aspnetcore/MqttBroker/Mqtt/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ferozebasha/.nuget/NuGet/NuGet.Config"

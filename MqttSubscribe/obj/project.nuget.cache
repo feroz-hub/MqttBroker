@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0D+G/6o+g+aOznQbY7djVzjPk1b8WqhBbr2vP+y91NrcJjesjA9WB3sYODKxRE6V22d9FtSSlCI05tQyZYMtOw==",
+  "dgSpecHash": "f8yGlXx8ZYMnt48vccKx8TWmT9dKyVgwC/6yc63A4r1BpupCWK1MdylFsrqxNhh4BmH010uiWmgqka8C0uDdrg==",
   "success": true,
-  "projectFilePath": "/Users/ferozebasha/Projects/MqttBroker/MqttSubscribe/MqttSubscribe.csproj",
+  "projectFilePath": "/Users/ferozebasha/Aspnetcore/MqttBroker/MqttSubscribe/MqttSubscribe.csproj",
   "expectedPackageFiles": [
     "/Users/ferozebasha/.nuget/packages/mqttnet/4.3.3.952/mqttnet.4.3.3.952.nupkg.sha512"
   ],

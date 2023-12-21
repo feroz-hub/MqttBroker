@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MqttPublish
-build_property.ProjectDir = /Users/ferozebasha/Projects/MqttBroker/MqttClient/
+build_property.ProjectDir = /Users/ferozebasha/Aspnetcore/MqttBroker/MqttClient/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

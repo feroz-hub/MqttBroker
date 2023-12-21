@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mBoXWMXZ8Hyptrxs8amTNQCSg6Il2trZfSXh0zTRTeNvTqH59On2vJ/V/OHoIDDkl+Q4v51hDuKFMhYUx+9Jlw==",
+  "dgSpecHash": "I3mWpMQPGG15daH9I5M7X03wjM8x05BCwYnujEj1ogAaMNDgb4JJmOFSiELGgNPh60jiT9F/tW60DcLvPRfFuA==",
   "success": true,
-  "projectFilePath": "/Users/ferozebasha/Projects/MqttBroker/MqttClient/MqttPublish.csproj",
+  "projectFilePath": "/Users/ferozebasha/Aspnetcore/MqttBroker/MqttClient/MqttPublish.csproj",
   "expectedPackageFiles": [
     "/Users/ferozebasha/.nuget/packages/mqttnet/4.3.3.952/mqttnet.4.3.3.952.nupkg.sha512"
   ],

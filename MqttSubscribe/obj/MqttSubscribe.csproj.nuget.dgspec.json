@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ferozebasha/Projects/MqttBroker/MqttSubscribe/MqttSubscribe.csproj": {}
+    "/Users/ferozebasha/Aspnetcore/MqttBroker/MqttSubscribe/MqttSubscribe.csproj": {}
   },
   "projects": {
-    "/Users/ferozebasha/Projects/MqttBroker/MqttSubscribe/MqttSubscribe.csproj": {
+    "/Users/ferozebasha/Aspnetcore/MqttBroker/MqttSubscribe/MqttSubscribe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ferozebasha/Projects/MqttBroker/MqttSubscribe/MqttSubscribe.csproj",
+        "projectUniqueName": "/Users/ferozebasha/Aspnetcore/MqttBroker/MqttSubscribe/MqttSubscribe.csproj",
         "projectName": "MqttSubscribe",
-        "projectPath": "/Users/ferozebasha/Projects/MqttBroker/MqttSubscribe/MqttSubscribe.csproj",
+        "projectPath": "/Users/ferozebasha/Aspnetcore/MqttBroker/MqttSubscribe/MqttSubscribe.csproj",
         "packagesPath": "/Users/ferozebasha/.nuget/packages/",
-        "outputPath": "/Users/ferozebasha/Projects/MqttBroker/MqttSubscribe/obj/",
+        "outputPath": "/Users/ferozebasha/Aspnetcore/MqttBroker/MqttSubscribe/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ferozebasha/.nuget/NuGet/NuGet.Config"
