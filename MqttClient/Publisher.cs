@@ -1,11 +1,13 @@
-﻿using MQTTnet;
+﻿using System.Text;
+using MQTTnet;
 using MQTTnet.Client;
-using System.Text;
 using MQTTnet.Protocol;
 
-class Program
+namespace MqttPublish;
+
+internal static class Program
 {
-    static async Task Main(string[] args)
+    private static async Task Main(string[] args)
     {
         // Create an instance of the MQTT factory
         var factory = new MqttFactory();
@@ -24,8 +26,8 @@ class Program
         var connectResult = await mqttClient.ConnectAsync(options);
 
         // Define MQTT topic and message
-        string topic = "test";
-        string message = "Hello, MQTT!";
+        const string topic = "test";
+        const string message = "Hello, MQTT!";
 
         // Check if the connection to the MQTT server was successful
         if (connectResult.ResultCode == MqttClientConnectResultCode.Success)
@@ -41,7 +43,7 @@ class Program
                 .Build();
 
             // Publish the message to the MQTT server
-            MqttClientPublishResult result = await mqttClient.PublishAsync(applicationMessage);
+            var result = await mqttClient.PublishAsync(applicationMessage);
             await Task.Delay(1000);//Wait for 1 Second
 
             Console.WriteLine($"Message published with result: {result.ReasonCode}");

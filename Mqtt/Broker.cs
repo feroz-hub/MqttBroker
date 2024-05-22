@@ -1,8 +1,8 @@
-﻿using MqttBroker;
+﻿namespace MqttBroker;
 
-class Program
+internal static class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         Console.WriteLine("Select the server type:");
         Console.WriteLine("1. Server_Tls (Mutual Authentication)");
